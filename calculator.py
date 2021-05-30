@@ -15,5 +15,9 @@ def multiply(first_term, second_term):
     return first_term * second_term
 
 
+def pow(first_term, second_term):
+    return first_term ** second_term
+
+
 def spit_float() -> float:
     return float(1)
