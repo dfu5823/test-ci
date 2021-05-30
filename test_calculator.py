@@ -20,4 +20,4 @@ class TestCalculator:
         assert 1.0 == calculator.spit_float()
 
     def test_pow(self):
-        assert 8 == calculator.calc_pow(2, 2)
+        assert 8 == calculator.calc_pow(2, 3)
