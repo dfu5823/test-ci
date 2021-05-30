@@ -21,4 +21,5 @@ class TestCalculator:
 
     def test_pow(self, first_term, second_term):
         assert isinstance(second_term, int)
-        assert first_term ** second_term == calculator.pow(first_term, second_term)
+        assert first_term ** second_term == \
+               calculator.pow(first_term, second_term)
