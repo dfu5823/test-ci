@@ -2,6 +2,7 @@
 # A testing repo for continous integration (CI)
 
 A basic calculator app with addition, subtraction, and multiplication.
+Source: https://realpython.com/python-continuous-integration/#what-is-continuous-integration
 Contains requirements.txt, calculator.py, and test_calculator.py
 Each commit and push adds a new job to the Circle CI execution dashboard, where (according to the .circleci/config.yml file) a virtual docker environment is created, dependencies are installed (according to requirements.txt), and the code is tested using pytest (unit tests), as well as linted using flake8.
 To add a new function to the app in calculator.py (eg. division), remember to add a corresponding unit test to test_calculator.py (eg. test_division).
