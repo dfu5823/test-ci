@@ -15,3 +15,6 @@ class TestCalculator:
 
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
+
+    def test_spit_float(self):
+        assert 1.0 == calculator.spit_float()
