@@ -29,6 +29,7 @@ class TestCalculatorData:
         self.data = [4, 2]
 
     def test_addition(self):
+        self.data = [4, 2]
         assert self.data[1] + self.data[2] == \
                calculator.add(self.data[1], self.data[2])
 
