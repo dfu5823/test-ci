@@ -49,4 +49,4 @@ class TestCalculatorData:
     def test_pow(self):
         self.data = [4, 2]
         assert self.data[0] ** self.data[1] == \
-               calculator.pow(self.data[0], self.data[1])
+               calculator.calc_pow(self.data[0], self.data[1])
