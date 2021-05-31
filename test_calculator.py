@@ -31,6 +31,7 @@ class TestCalculator:
         assert 8 == calculator.calc_pow(2,val)
         
         
+        
 
 
 class TestCalculatorData:
