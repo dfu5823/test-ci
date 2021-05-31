@@ -21,6 +21,14 @@ class TestCalculator:
 
     def test_pow(self):
         assert 8 == calculator.calc_pow(2, 3)
+        
+    def test_integration(self):
+        # Confirm that 2 + 1 returns 3
+        val = calculator.add(2,1)
+        assert 3 == val
+        
+        # Confirm that calc_pow(2,val) returns 8
+        assert 8 == calc_pow(2,val)
 
 
 class TestCalculatorData:
