@@ -28,7 +28,9 @@ class TestCalculator:
         assert 3 == val
         
         # Confirm that calc_pow(2,val) returns 8
-        assert 8 == calc_pow(2,val)
+        assert 8 == calculator.calc_pow(2,val)
+        
+        
 
 
 class TestCalculatorData:
