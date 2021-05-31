@@ -23,3 +23,7 @@ def calc_pow(first_term, second_term: int):
 
 def spit_float() -> float:
     return float(1)
+
+
+def setUp():
+    return

@@ -24,7 +24,7 @@ class TestCalculator:
 
 
 class TestCalculatorData:
-    def setUp(self):
+    def test_setUp(self):
         # Load data for any test case (pair of numbers)
         self.data = [4, 2]
 
