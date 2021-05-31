@@ -29,8 +29,8 @@ class TestCalculatorData:
         self.data = [4, 2]
 
     def test_addition(self):
-        assert self.data(1) + self.data(2) == \
-               calculator.add(self.data(1), self.data(2))
+        assert self.data[1] + self.data[2] == \
+               calculator.add(self.data[1], self.data[2])
 
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
