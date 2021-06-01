@@ -25,5 +25,5 @@ def spit_float() -> float:
     return float(1)
 
 
-def setUp():
+def integrationCalc():
     return
