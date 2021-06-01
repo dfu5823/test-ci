@@ -35,17 +35,9 @@ class TestCalculatorData:
     def test_integrationCalc(self):
         # Load data for any test case (pair of numbers)
         self.data = [4, 2]
-        # test addition
-        assert self.data[0] + self.data[1] == \
-               calculator.add(self.data[0], self.data[1])
-        # test subtraction
-        assert self.data[0] - self.data[1] == \
-               calculator.subtract(self.data[0], self.data[1])
-        # test multiplication
-        assert self.data[0] * self.data[1] == \
-               calculator.multiply(self.data[0], self.data[1])
-        # test spit float
-        assert 1.0 == calculator.spit_float()
-        # test power
-        assert self.data[0] ** self.data[1] == \
-               calculator.calc_pow(self.data[0], self.data[1])
+        # test addition and subtraction
+        assert (self.data[0] + self.data[1]) - self.data[1] == \
+               calculator.subtract(calculator.add(self.data[0], self.data[1]), self.data[1])
+        # test multiplication and power
+        assert (self.data[0] * self.data[1]) ** self.data[1] == \
+               calculator.calc_pow(calculator.multiply(self.data[0], self.data[1]), self.data[1])
