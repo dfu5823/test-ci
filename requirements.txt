@@ -19,7 +19,7 @@ pytesseract
 numpy
 imutils
 pyserial
--U PyObjC
+PyObjC
 azure-cognitiveservices-speech
 pytest
 playsound
