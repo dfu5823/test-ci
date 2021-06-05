@@ -21,6 +21,5 @@ imutils
 pyserial
 PyObjC
 azure-cognitiveservices-speech
-pytest
 playsound
 pybind11
