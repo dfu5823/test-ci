@@ -12,3 +12,14 @@ pyparsing==2.4.7
 pytest==6.2.4
 pytest-cov==2.12.0
 toml==0.10.2
+
+opencv-python
+pytesseract
+numpy --upgrade
+imutils
+pyserial
+-U PyObjC
+azure-cognitiveservices-speech
+pytest
+playsound
+pybind11
