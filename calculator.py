@@ -1,5 +1,5 @@
 """
-Calculator library containing basic math operations.
+Calculator library containing basic math operations and spit_float.
 """
 
 
