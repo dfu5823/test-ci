@@ -17,9 +17,10 @@ toml==0.10.2
 opencv-python
 pytesseract
 numpy
+#numpy --upgrade
 imutils
 pyserial
-#PyObjC
+#-U PyObjC
 azure-cognitiveservices-speech
 playsound
 pybind11
